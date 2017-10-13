@@ -10,7 +10,7 @@
   "author": "Alex Liu",
   "license": "MIT",
   "bin": {
-    "jc": "index.js"
+    "jsonc": "index.js"
   },
   "devDependencies": {
     "commander": "^2.11.0"

@@ -43,7 +43,7 @@ Options:
 ```
 
 ```bash
-jc --watch --file ./data.jc
+jsonc --watch --file ./data.jc
 ```
 
 ## License
