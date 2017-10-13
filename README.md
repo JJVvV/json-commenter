@@ -27,6 +27,7 @@ Options:
 监听./data.jc文件，并生成./data.json文件
 
 ```data.jc
+
 //data.jc
 {
     //name
