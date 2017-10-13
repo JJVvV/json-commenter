@@ -1,5 +1,5 @@
 {
-  "name": "json-comment",
+  "name": "json-commenter",
   "version": "1.0.0",
   "description": "json support comment",
   "main": "index.js",
