@@ -60,6 +60,7 @@ if(program.file){
 
 function loopSrc(from, filter=()=>{return true}, callback){
     
+    console.log(from)
     if(!fs.existsSync(from)) {
         console.log(`file not exit: ${from}`)
         return
@@ -69,7 +70,6 @@ function loopSrc(from, filter=()=>{return true}, callback){
         let files = fs.readdirSync(from)
         files.forEach((file, index) => {
            let curPath = `${from}/${file}`
-         
            loopSrc(curPath, filter, callback)
         });
     }else{
@@ -79,6 +79,7 @@ function loopSrc(from, filter=()=>{return true}, callback){
 }
 
 function handleFile(fileFrom, fileTo){
+    fileFrom = path.join(process.cwd(), fileFrom)
     console.log(fileFrom)
     // let from = path.join(__dirname, fileFrom)
     let readWrite = (f, to)=> {
