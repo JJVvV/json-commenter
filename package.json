@@ -12,7 +12,7 @@
   "bin": {
     "jsonc": "index.js"
   },
-  "devDependencies": {
+  "dependencies": {
     "commander": "^2.11.0"
   }
 }
