@@ -6,7 +6,7 @@ json格式文件不支持注释，但可以在其他格式文件里写上注释�
 
 ## Installation
 
-    $ npm install json-comment --save-dev
+    $ npm install json-commenter --save-dev
 
 ## Usage
 
