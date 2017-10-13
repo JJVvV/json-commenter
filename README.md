@@ -13,7 +13,7 @@ json格式文件不支持注释，但可以在其他格式文件里写上注释�
 
 ```  
 Options:
-      -V, --version        output the version number
+      -v, --version        output the version number
       -w --watch [value]   watch（是否实时监测文件变化）
       -f --file <value>    url of entry（入口文件地址或文件夹）
       -t --to [value]      url of output（输出文件夹地址，默认当前文件夹'./'）

@@ -5,7 +5,7 @@
  *  File : index.js
  *******************************************/
 
- 
+
 let path = require('path')
 let fs = require('fs')
 let program = require('commander')
@@ -38,10 +38,10 @@ program.version('0.1.0')
         .usage('json文件')
         .description('生成json文件')
 
-program.option('-w --watch [value]', '监视', list)
-        .option('-f --file <value>', '入口文件', list)
-        .option('-t --to [value]', '输出文件', defaultOutput)
-        .option('-e --ext [value]', '文件后缀', extension)
+program.option('-w --watch [value]', 'watch（是否实时监测文件变化）', list)
+        .option('-f --file <value>', 'url of entry（入口文件地址或文件夹）', list)
+        .option('-t --to [value]',   "url of output（输出文件夹地址，默认当前文件夹'./'）", defaultOutput)
+        .option('-e --ext [value]',  "extension of file being watched（被检测的文件后缀，默认为'.jc'）", extension)
 
     
 program.parse(process.argv)
