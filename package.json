@@ -1,0 +1,18 @@
+{
+  "name": "json-comment",
+  "version": "1.0.0",
+  "description": "json support comment",
+  "main": "index.js",
+  "preferGlobal": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alex Liu",
+  "license": "ISC",
+  "bin": {
+    "jc": "index.js"
+  },
+  "devDependencies": {
+    "commander": "^2.11.0"
+  }
+}
